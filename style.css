@@ -1,10 +1,41 @@
-*{
-    color: brown;
-    font-weight: 10000;
-}   
-
-
-b {
-    color: blue;
-    font-size: large;
-}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  p {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .about,
+  .experience,
+  .education {
+    margin-bottom: 30px;
+  }
+  
+  .job,
+  .degree {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
