@@ -1,15 +1,23 @@
-body {
-    font-family: Arial, sans-serif;
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
-  }
+}
+
+/* Định dạng chung */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
   
-  .container {
+.container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
-  }
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
   
   header {
     text-align: center;
