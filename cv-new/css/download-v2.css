@@ -1,0 +1,240 @@
+.text-highlight {
+  color: #00b14f;
+}
+a.text-highlight:hover {
+  color: #27ae60;
+}
+#exportMask {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#exportMask img {
+  max-width: 100%;
+}
+#exportMask strong {
+  font-weight: 700;
+}
+#exportMask p {
+  margin: 0 0 10px;
+}
+#exportMask {
+  position: fixed;
+  display: none;
+  z-index: 20071992;
+  top: 0;
+  left: 0;
+  background-color: rgba(29, 31, 31, 0.8);
+  width: 100%;
+  height: 100%;
+  color: #000;
+  text-align: center;
+}
+#exportMask .export-modal-wraper {
+  width: 920px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #f6f6f6;
+  position: relative;
+}
+#exportMask #export-waiting {
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  padding: 10px;
+}
+#exportMask .notice {
+  padding: 15px;
+  text-align: justify;
+  font-size: 12px;
+  border-top: 1px dashed #f6f6f6;
+  line-height: 1.35em;
+}
+#exportMask .notice > p {
+  margin-bottom: 5px;
+}
+#exportMask .notice > p > strong {
+  font-weight: 700;
+}
+#exportMask .notice ul {
+  list-style: none;
+}
+#exportMask .notice li {
+  margin-bottom: 10px;
+}
+#exportMask .notice a {
+  color: #00b14f;
+}
+#exportMask .notice a:hover,
+#exportMask .notice a:active {
+  color: #0b9356;
+}
+#downloadCvLink {
+  font-size: 12px;
+  line-height: 1.6em;
+  display: inline-block;
+  margin-top: 10px;
+}
+#export-waiting .counter {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  color: #00b14f;
+}
+#export-waiting p {
+  color: #666;
+  line-height: 1.35em;
+  font-weight: 700;
+}
+#export-waiting .counter img {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#export-waiting .counter {
+  padding-top: 44px;
+}
+#exportMask .downloadable-show .col-left,
+#exportMask .downloadable-show .col-center,
+#exportMask .downloadable-show .col-right {
+  float: left;
+  min-height: 510px;
+}
+#exportMask .downloadable-show .col-left {
+  width: 150px;
+  background-color: red;
+  background-color: #fff;
+}
+#exportMask .downloadable-show .col-center {
+  width: 510px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#exportMask .downloadable-show .col-center-top {
+  background-color: #fff;
+  width: 100%;
+  min-height: 100px;
+}
+#exportMask .downloadable-show .col-center-bottom {
+  margin-top: 10px;
+  background-color: #fff;
+  width: 100%;
+  min-height: 100px;
+}
+#exportMask .downloadable-show .col-right {
+  width: 240px;
+  background-color: #fff;
+}
+#cv-download-limit {
+  color: #666;
+  font-size: 16px;
+  border: 1px dashed #00b14f;
+}
+#cv-download-limit-count {
+  color: #4caf50;
+  font-weight: 700;
+  font-size: 21px;
+}
+#out-of-free-download-message {
+  padding: 15px;
+  font-size: 12px;
+}
+#out-of-free-download-message .col-left,
+#out-of-free-download-message .col-right {
+  width: 50%;
+  float: left;
+  background-color: transparent;
+  min-height: 300px;
+  padding: 15px;
+  margin-top: 0;
+}
+#out-of-free-download-message .col-left {
+  padding-left: 0;
+}
+#out-of-free-download-message .col-right {
+  padding-right: 0;
+}
+#out-of-free-download-message hr {
+  border: 1px solid #dfdfdf;
+  border-bottom: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#out-of-free-download-message .notice {
+  padding: 0;
+}
+#out-of-free-download-message h3 {
+  margin: 0;
+  text-align: center;
+  font-size: 24px;
+}
+#exportMask .vip-intro ul {
+  list-style: none;
+  width: 250px;
+  margin: 10px auto;
+}
+#exportMask .vip-intro li {
+  line-height: 17px;
+  margin-top: 5px;
+  color: #777;
+  text-align: left;
+}
+#exportMask .plan-feature li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 36px;
+  border-bottom: 1px solid #eee;
+  color: #666;
+}
+#exportMask .plan-feature li i {
+  margin-left: 10px;
+  margin-right: 3px;
+}
+#exportMask .plan-feature li .fa {
+  color: #06aed5;
+  font-size: 12px;
+}
+#exportMask .plan-feature li .fa-check {
+  color: #00b14f;
+}
+#exportMask .plan-feature li .fa-times {
+  color: #c83f19;
+}
+@media (max-width: 915px) {
+  #exportMask .export-modal-wraper {
+    width: 770px;
+  }
+  #exportMask .downloadable-show .col-left {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  #exportMask .export-modal-wraper {
+    width: 610px;
+  }
+  #exportMask .downloadable-show .col-center {
+    width: 350px;
+  }
+}
+@media (max-width: 620px) {
+  #exportMask .export-modal-wraper {
+    width: 100%;
+  }
+  #exportMask .downloadable-show .col-right {
+    width: 100%;
+  }
+  #exportMask .downloadable-show .col-center {
+    display: none;
+  }
+  #out-of-free-download-message .col-left {
+    display: none;
+  }
+  #out-of-free-download-message .col-left,
+  #out-of-free-download-message .col-right {
+    width: 100%;
+  }
+}

@@ -1,0 +1,57 @@
+@media print {
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #fff;
+  }
+  .cvo-document {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .cvo-document .cvo-page {
+    margin: 0 !important;
+    border: none;
+    border-radius: 0;
+    width: initial;
+    min-height: initial;
+    box-shadow: none !important;
+    background: initial;
+    page-break-after: always;
+  }
+  .cvo-document .cvo-subpage {
+    outline: none;
+  }
+  [cvo-form-field] {
+    outline: none;
+  }
+  [cvo-form-field]:hover,
+  [cvo-form-field]:focus {
+    outline: none;
+  }
+  .non-printable {
+    display: none;
+  }
+  .cvo-document .cvo-subpage,
+  .cvo-document .cvo-page {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .cvo-block .row {
+    page-break-inside: auto !important;
+  }
+  body {
+    background-image: unset !important;
+    background-color: #fff !important;
+  }
+  #cover-letter {
+    page-break-after: always;
+  }
+  .cv-letter-print {
+    padding: 19px;
+    background-color: #fff;
+  }
+  .cv-letter-print h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

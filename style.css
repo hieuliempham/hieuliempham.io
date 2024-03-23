@@ -1,49 +1,173 @@
-body, h1, h2, h3, h4, h5, h6, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
-/* Định dạng chung */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f8f8f8;
-}
+.cv {
+    border: 1px solid #000;
+    box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+  }
   
-.container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-  
-  header {
+  .avatar {
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 50%, #454545 50%, #454545 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 50%, #454545 50%, #454545 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #454545 50%, #454545 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#454545', GradientType=0);
+    height: 300px;
     text-align: center;
   }
   
-  h1 {
+  .avatar img {
+    padding: 5px;
+    border-radius: 50%;
+    margin-top: 25px;
+    background: #fff;
+    max-width:250px;
+  }
+  
+  .gray {
+    background: #454545;
+  }
+  
+  .bio {
+    background: #454545;
+    color: #fff;
+  }
+  
+  .bio hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+  }
+  
+  .about h3,
+  .contact h3 {
+    background-color: #4886a5;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 1.4em;
+    margin: 0 0 24px 26px;
+    padding: 4px 0 4px 12px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .about h3:after,
+  .contact h3:after {
+    border-color: #263746 transparent transparent #263746;
+    border-style: solid;
+    border-width: 6px;
+    bottom: -12px;
+    content: "";
+    position: absolute;
+    right: 0;
+  }
+  
+  .about h3:before,
+  .contact h3:before {
+    color: #fff;
+    content: "";
+    font: 26px sans-serif;
+    position: absolute;
+    right: 12px;
+    top: -2px;
+  }
+  
+  .contact {
+    font-size: 1.2em;
+  }
+  
+  .circle {
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+  }
+  
+  .experience .glyphicon,
+  .education .glyphicon,
+  .work-skills .glyphicon,
+  .personal-skills .glyphicon {
+    font-size: 1.5em;
+  }
+  
+  .experience hr,
+  .education hr,
+  .work-skills hr,
+  .personal-skills hr {
+    border-top: 1px dashed #000;
+  }
+  
+  .experience .date,
+  .education .date,
+  .work-skills .date,
+  
+  .personal-skills .date {
+    font-size: 1em;
+  }
+  
+  .experience .title,
+  .education .title,
+  .work-skills .title,
+  .personal-skills .title {
+    color: #4886a5;
+    font-weight: bold;
+  }
+  
+  .skills dt {
     margin: 0;
+    padding: 1rem 0;
+    font-family: 'VT323', ;
+    font-size: 24px;
+    color: #3D3D3D;
   }
   
-  p {
-    margin-top: 5px;
-    margin-bottom: 20px;
+  .skills dt:first-child {
+    padding-top: 0;
   }
   
-  .about,
-  .experience,
-  .education {
-    margin-bottom: 30px;
+  .skills dt:after {
+    width: 100%;
+    background-color: #3D3D3D;
+    height: 0.5rem;
+    content: "";
+    display: block;
   }
   
-  .job,
-  .degree {
-    margin-bottom: 20px;
+  .skills dd {
+    width: 100%;
+    height: 0.5rem;
+    position: relative;
+    right: 0;
+    margin: -1.5rem 0 0;
+    overflow: hidden;
+    text-indent: -1000px;
   }
   
-  footer {
-    text-align: center;
+  .skills dd {
+    background-color: #4886a5;
   }
   
+  body {
+    padding: 40px 0;
+  }
+  
+  @media (max-width: 768px) {
+  .mobile-no-pad {
+    padding-left:0!important;
+    padding-right:0!important;
+  }
+    body {padding: 0;}
+    
+    .about h3,
+  .contact h3 {
+    margin: 0 0 10px 0;
+    padding: 4px 0 4px 12px;
+  }
+    .about h3:after,
+  .contact h3:after {
+    display:none;
+  }
+    
+   .about h3:before,
+  .contact h3:before {
+    right: 0;
+    top: -2px;
+  }
+  }

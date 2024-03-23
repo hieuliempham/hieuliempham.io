@@ -1,0 +1,41 @@
+.iframe {
+  padding-top: 2px;
+}
+.iframe #header-viewer {
+  display: none;
+}
+.iframe #cv-layout-viewer {
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.iframe #job-info {
+  display: none;
+}
+.iframe #cvo-document-root {
+  margin: 0 auto;
+  float: none;
+}
+.iframe #cv-layout-viewer {
+  width: auto;
+}
+.iframe #cvo-document {
+  margin-bottom: 30px;
+}
+body#cv-viewer.iframe {
+  background-color: transparent;
+}
+.app-view #header-viewer {
+  display: none;
+}
+.app-view #cv-layout-viewer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#cv-watermark {
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+  font-size: 12px;
+  color: #555;
+}
